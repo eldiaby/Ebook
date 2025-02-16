@@ -33,8 +33,10 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Scripts to load Bootstrap and custom scripts -->
-    <script defer src="./js/bootstrap.min.js"></script>
-    <script defer src="./js/script.js"></script>
+    <!-- <script defer src="./js/bootstrap.min.js"></script>
+    <script defer src="./js/script.js"></script> -->
+    <script defer src="./js/script.min.js"></script>
+
 
     <!-- Favicon icons for different devices -->
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png" />
@@ -179,7 +181,7 @@
       <section class="section-details my-5" id="details">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <div class="text-container d-flex flex-column justify-content-center h-100">
                 <h2 class="display-6">Unlock Your Blogging Potential</h2>
 
@@ -211,7 +213,7 @@
                   data-bs-target="#modal1">Get your copy now</a>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <div class="image-container">
                 <img src="./images/description.png" class="img-fluid" alt="Description Section Image"
                   title="Description Section Image" />
@@ -227,7 +229,8 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="image-container">
-                  <img src="images/description.png" alt="" class="img-fluid" />
+                  <img src="images/description.png" alt="Description Modal Image" title="Description Modal Image"
+                    class="img-fluid" />
                 </div>
               </div>
               <div class="col-lg-6">
@@ -263,8 +266,125 @@
           </div>
         </div>
       </div>
+      <!-- Details section end -->
+      <!-- =============================================================================== -->
+      <!-- Statment section start -->
+      <section class="section-statment mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="text-container bg-light p-5 rounded-5">
+                <h2>Master the Art of Blogging Excellence</h2>
+                <p>
+                  Transform your blog from a mere hobby to a thriving online
+                  business with our ebook, "Blog Mastery: Monetize Your Passion."
+                  This invaluable resource is your roadmap to turning your blog
+                  into a profitable venture. Learn how to monetize your content
+                  through various strategies such as sponsored posts, affiliate
+                  marketing, and product creation. Gain insights into building a
+                  strong brand, attracting lucrative partnerships, and maximizing
+                  your earning potential. Take the leap and unlock the financial
+                  rewards of your blogging journey.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Statment section end -->
+      <!-- =============================================================================== -->
+      <!-- Details 2 section start -->
+      <section class="section-details">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="image-container p-5">
+                <img src="./images/author.png" class="img-fluid" title="Inglina Jolly" alt="Inglina Jolly" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-container d-flex flex-column justify-content-center h-100">
+                <h2 class="display-6">Craft Your Markuple Content</h2>
 
-      <!-- Details section start -->
+                <p>
+                  Are you ready to unleash your true blogging potential? Our ebook, "Blog Mestery" provides you with the
+                  tools and knowledge to take your blog to the next level.
+                </p>
+
+                <ul class="list-group list-group-flush lh-lg">
+                  <li class="list-group-item">
+                    <i class="fas fa-square text-primary"></i>
+                    <strong>Unleash Your Creativity:</strong> Our ebook empowers
+                    you to unleash your creativity and express your unique voice
+                    through your blog.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-square text-primary"></i>
+                    <strong>Maximize Your Reach:</strong> Learn how to optimize
+                    your blog for search engines.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-square text-primary"></i>
+                    <strong>Monetization Strategies:</strong> Discover various
+                    monetization strategies, such as sponsored content & affiliate
+                    marketing.
+                  </li>
+                </ul>
+                <a class="btn btn-primary mt-4 text-white align-self-start text-capitalize" data-bs-toggle="modal"
+                  data-bs-target="#modal2">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal 2 -->
+      <div id="modal2" class="modal fade">
+        <div class="modal-dialog modal-dialog-fullscreen modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image-container">
+                  <img src="images/author.png" alt="Author Modal Image" title="Author Modal Image" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="text-container">
+                  <h2 class="display-6">Craft Your Markuple Content</h2>
+                  <p>
+                    Are you ready to unleash your true blogging potential? Our ebook, "Blog Mastery," provides you with
+                    the tools and knowledge to take your blog to the next level.
+                  </p>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Unleash Your Creativity:</strong> Our ebook empowers you to unleash your creativity and
+                      express your unique voice through your blog.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Maximize Your Reach:</strong> Learn how to optimize your blog for search engines.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Monetization Strategies:</strong> Discover various monetization strategies, such as
+                      sponsored content & affiliate marketing.
+                    </li>
+                  </ul>
+                  <a href="" class="btn btn-primary text-white">Free Download</a>
+                  <button type="button" class="btn btn-light" data-bs-dismiss="modal" title="Close">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Details 2 section end -->
+      <!-- =============================================================================== -->
+
+
     </main>
     <!-- Main content end -->
     <!-- =============================================================================== -->
