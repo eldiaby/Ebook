@@ -1,11 +1,21 @@
 {
-  "name": "ebook-blog-template",
+  "name": "ebook-blog",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Free E-book to guide you step-by-step on how to start your own blog. Learn essential tips, tools, and resources for successful blogging.",
   "author": "Eldiaby Hosny",
   "license": "ISC",
-  "keywords": ["blog", "ebook", "start blog", "how to blog", "blog tutorial", "blogging tips", "free guide", "online business", "personal blog"],
+  "keywords": [
+    "blog",
+    "ebook",
+    "start blog",
+    "how to blog",
+    "blog tutorial",
+    "blogging tips",
+    "free guide",
+    "online business",
+    "personal blog"
+  ],
   "scripts": {
     "sass:watch": "sass ./sass/style.scss ./css/style.css --no-source-map --watch",
     "devserver": "live-server --browser=firefox",
