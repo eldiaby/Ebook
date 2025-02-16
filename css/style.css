@@ -23486,6 +23486,17 @@ readers do not read off random characters that represent icons */
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media only screen and (max-width: 1000px) {
+  .header__image-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header__text-container {
+    text-align: center;
+  }
+}
 
 .navbar-logo {
   width: 250px;
