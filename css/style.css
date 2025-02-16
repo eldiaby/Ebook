@@ -23480,6 +23480,10 @@ readers do not read off random characters that represent icons */
   --fa: "\f3f6";
 }
 
+.modal-dialog {
+  max-width: 1040px;
+}
+
 .header {
   background-image: url("./../images/header-background.jpg");
   background-position: center;
