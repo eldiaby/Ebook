@@ -1,41 +1,94 @@
-# Ebook Website
+# Ebook Blog
 
-Bootstrap website for downloading a free E-book. This website has a light, business-oriented design.
+**Version**: 1.0.0  
+**Author**: Eldiaby Hosny  
+**License**: ISC
 
-<img src="./images/screen.png"  />
+This website provides a free e-book that serves as a step-by-step guide to help you start your own blog. Learn essential tips, tools, and resources for successful blogging.
 
 ## Features
 
-- Modern layout with custom colors/styles/backgrounds
-- Responsive design
+- Modern and business-oriented design
+- Responsive layout
 - Sticky navbar with style changes on scroll
 - Bootstrap modals
-- Form & input styles
-- Testimonials
-- Contact page with Google Map
+- Custom form & input styles
+- Testimonials section
+- Contact page with embedded Google Map
+- Free E-book download to guide you through starting your own blog
 
-## Usage
+## Technologies Used
 
-This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
+- **Bootstrap**: For responsive layout and components
+- **Sass**: For custom styling and efficient CSS management
+- **Font Awesome**: For scalable icons
+- **Node.js**: For local development environment and build tools
 
-In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
+## Installation & Setup
 
-```bash
-npm install
-```
+To set up this project locally, follow these steps:
 
-This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
+1. Install [Node.js](https://nodejs.org/en/).
 
-```bash
+2. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/ebook-blog.git
+   cd ebook-blog
+
+    Install dependencies:
+
+    npm install
+
+    This will install all necessary dependencies, including Bootstrap, Sass, and Font Awesome.
+   ```
+
+Development
+Building the CSS
+
+To compile your Sass files into CSS, run:
+
 npm run sass:build
-```
 
-To watch your Sass files for changes, run:
+This will generate the style.comp.css file.
+Watching for Changes
 
-```bash
+To automatically compile your Sass files whenever you make changes, run:
+
 npm run sass:watch
-```
 
-You can add Bootstrap variables to the `bootstrap.scss` file. You can look at the file `node_modules/bootstrap/dist/scss/_variables.scss` for a list of all the variables. Do NOT edit the `variables.scss` file directly, as it will be overwritten when you update Bootstrap.
+Customizing Bootstrap
 
-To add your own custom styles, use the `styles.scss` file.
+You can customize Bootstrap’s default variables by modifying the bootstrap.scss file. For a list of all variables, check out the file at:
+
+node_modules/bootstrap/dist/scss/\_variables.scss
+
+Do not edit the variables.scss file directly, as it will be overwritten when you update Bootstrap.
+Adding Custom Styles
+
+For any custom styles, add your code to the styles.scss file.
+Running the Development Server
+
+To start a local server for development, run:
+
+npm run devserver
+
+This will open the site in a browser and you can make changes in real time.
+Build the Project for Production
+
+To build the project for production, you can run:
+
+npm run build:project
+
+This will:
+
+    Minify HTML, CSS, and JavaScript files
+    Copy necessary assets like images and fonts to the dist folder
+    Prepare the project for deployment
+
+Deployment
+
+After building the project, deploy the contents of the dist folder to your hosting service.
+License
+
+This project is licensed under the ISC License.
